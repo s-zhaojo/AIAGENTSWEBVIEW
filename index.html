@@ -9,5 +9,10 @@
   <body>
     <div id="app"></div>
     <script type="module" src="/src/main.js"></script>
+     <form action="/upload_image.php" method="post" enctype="multipart/form-data">
+    <label for="imageUpload">Select an image to upload:</label>
+    <input type="file" name="imageUpload" id="imageUpload" accept="image/*">
+    <input type="submit" value="Upload Image">
+  </form>
   </body>
 </html>
